@@ -1,0 +1,76 @@
+.container-register{
+    width: 212vh;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+
+.register-form {
+   
+ display: block;
+
+ margin: auto;
+
+ 
+ 
+    
+}
+.inputs-inside{
+    display: block;
+}
+.head-register{
+    padding: 1%;
+    font-size: 40px;
+}
+.register-form{
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 35%;
+     background-color: lightblue;
+    
+}
+.firstin input[type="text"]{
+    display: inline-block;
+    margin: 2%;
+    padding: 2%;
+}
+.secondin input[type="password"]{
+    display: inline-block;
+    margin: 2%;
+    padding: 2%;
+}
+p{
+    display: inline-block;
+}
+.thirdin input[type="number"]{
+     display: inline-block;
+    margin: 2%;
+    padding: 1%;
+}
+.fourthin{
+    
+}
+button{
+    margin: 3%;
+    padding: 3%;
+}
+button:hover{
+    background-color: blue;
+}
+.em{
+    display: block;
+    margin: 10px;
+    padding: 20px;
+}
+  
+.em input[type="email"]
+{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   
+}
